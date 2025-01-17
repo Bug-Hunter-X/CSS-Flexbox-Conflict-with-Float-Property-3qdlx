@@ -1,0 +1,17 @@
+/* bugSolution.css */
+.container {
+  display: flex;
+  /* Removed float: left; */
+}
+.item {
+  /* Removed float: left; */
+  /* Add margin or padding to create space between items instead of using float*/
+  margin-right: 10px;
+}
+/*Example of proper usage*/
+.anotherContainer{
+display: flex;
+}
+.itemInAnotherContainer{
+  width: 50%; /*Instead of using float for layout*/
+}
