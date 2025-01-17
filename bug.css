@@ -1,0 +1,1 @@
+The CSS rule `.selector { display: flex; }` is applied to an element that is also styled with `float: left;` or `float: right;`. This causes unpredictable behavior because the `float` property conflicts with the `display: flex;` property. The element might not display as expected in the flex layout.
